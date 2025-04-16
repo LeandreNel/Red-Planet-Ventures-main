@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../css/main.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      header {
+        background-image: url(../assets/img/headerbackBack.png);
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 43vh;
+      }
+
+      .contactText {
+        font-size: 48px;
+        width: 50%;
+        font-family: "porterSans", sans-serif;
+        color: #ffffff;
+        margin: 0 auto;
+        flex-direction: column;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+      }
+
+      .contactText p {
+        margin: 0;
+      }
+
+      .whiteSpace {
+        background-color: #ffffff;
+        height: 100%;
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        margin-top: 5%;
+      }
+
+      .secondwhiteSpace {
+        background-color: #ffffff;
+        height: 1000px;
+        width: 100%;
+        margin-top: 7%;
+      }
+
+      .instaGramB {
+        margin-left: 4%;
+        width: 7%;
+        margin-right: 1%;
+      }
+
+      .xB {
+        width: 7%;
+        margin-right: 1%;
+      }
+
+      .tiktokB {
+        width: 7%;
+        margin-right: 1%;
+      }
+
+      .facebookB {
+        width: 7%;
+        margin-right: 1%;
+      }
+
+      .containerA {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .mia {
+        width: 10%;
+      }
+
+      .aboutArea {
+        width: 50%;
+      }
+
+      .shipsArea {
+        width: 70%;
+      }
+
+      .shipsArea img {
+        width: 100%;
+        height: auto;
+      }
+
+      .navFlex {
+        background-color: rgba(255, 255, 255, 0.7);
+        color: #4e4e4e;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border-radius: 25px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2%;
+        height: 23%;
+      }
+
+      .location {
+        height: 40%;
+        width: 40%;
+        margin-left: 5%;
+        border-radius: 30px;
+        margin-left: 0%;
+      }
+
+      .form {
+        margin-top: -25%;
+        margin-left: 6%;
+        width: 45%;
+      }
+
+      .your-name {
+        position: absolute;
+        text-decoration: none;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 5px;
+        background-color: white;
+        margin-left: 10%;
+        height: 7%;
+        margin-top: -5%;
+        width: 37%;
+      }
+
+      .emailadress {
+        position: absolute;
+        text-decoration: none;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 5px;
+        background-color: white;
+        margin-left: 10%;
+        height: 7%;
+        margin-top: 5%;
+        width: 37%;
+      }
+
+      .subject {
+        position: absolute;
+        text-decoration: none;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 5px;
+        background-color: white;
+        margin-left: 10%;
+        height: 7%;
+        margin-top: 15%;
+        width: 37%;
+      }
+
+      .message {
+        position: absolute;
+        text-decoration: none;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        padding: 5px;
+        background-color: white;
+        margin-left: 10%;
+        height: 14%;
+        margin-top: 25%;
+        width: 37%;
+      }
+
+      .knoppies {
+        background-color: #e51728;
+        font-family: "poppins-bold", sans-serif;
+        position: absolute;
+        height: 8%;
+        margin-left: 10%;
+        margin-top: 36%;
+        width: 12%;
+        border-radius: 10px;
+        border: none;
+        color: white;
+        font-size: 18px;
+        font-family: "poppins-bold", sans-serif;
+      }
+    </style>
+  </head>
+
+  <header>
+    <nav class="navFlex">
+      <img id="logo" src="../assets/img/logo.png" alt="Logo" />
+      <div class="navPages">
+        <p><a href="../index.html">Home</a></p>
+        <p><a href="../pages/flights.html">Flights</a></p>
+        <p><a style="color: #e51728" href="pages/contact.html">Contact</a></p>
+        <p><a href="../pages/about.html">About</a></p>
+        <div class="search-container">
+          <input type="text" class="search-bar" placeholder="Search..." />
+        </div>
+      </div>
+    </nav>
+
+    <div class="contactText">
+      <p>CONTACT</p>
+      <p>US</p>
+    </div>
+  </header>
+  <div class="whiteSpace">
+    <div class="aboutArea" style="margin-top: 10%; width: 60%">
+      <p
+        class="poppins-medium"
+        style="font-size: large; color: #55daeb; margin-bottom: 0%"
+      >
+        ABOUT
+      </p>
+      <p
+        class="poppins-semibold"
+        style="
+          color: #350c4d;
+          font-size: 40px;
+          font-weight: 600px;
+          margin-bottom: 0%;
+          margin-top: 0%;
+        "
+      >
+        RED PLANET VENTURES
+      </p>
+      <p
+        class="poppins-regular"
+        style="color: rgb(173, 173, 173); margin-top: 0%"
+      >
+        Welcome to Red Planet Ventures, where we are dedicated to turning dreams
+        of interplanetary exploration into exhilarating realities. As a premier
+        provider of space tourism experiences, we specialize in crafting
+        meticulously curated journeys to the diverse planets within our solar
+        system. From the rugged terrain of Mars to the majestic rings of Saturn,
+        our expertly designed trips offer unparalleled opportunities for
+        discovery and adventure. With a commitment to safety, innovation, and
+        customer satisfaction, we strive to exceed expectations and leave a
+        lasting impression on every traveler who embarks on a voyage with us.
+        Join us as we push the boundaries of exploration and unlock the
+        mysteries of the cosmos with Red Planet Ventures.
+      </p>
+    </div>
+    <div class="mia"></div>
+    <div class="shipsArea">
+      <img src="../assets/img/contactimage.png" alt="ships" />
+    </div>
+  </div>
+
+  <div class="secondwhiteSpace">
+    <div class="containerA">
+      <div class="locationContact">
+        <div>
+          <div
+            class="poppins-regular"
+            style="margin-bottom: 0%; margin: 0; width: 45%; margin-left: 4%"
+          >
+            <p
+              style="
+                font-size: large;
+                color: #55daeb;
+                margin-bottom: 0%;
+                margin-left: 1%;
+              "
+            >
+              CONTACT US THROUGH OUR
+            </p>
+            <p
+              class="popping-extrabold"
+              style="
+                font-size: 40px;
+                margin-top: 0%;
+                margin-bottom: 0%;
+                color: #350c4d;
+              "
+            >
+              SOCIAL MEDIA PAGES
+            </p>
+          </div>
+
+          <img
+            class="instaGramB"
+            src="../assets/img/smInstagram.png"
+            alt="instagram"
+          />
+          <img class="xB" src="../assets/img/smX.png" alt="x" />
+          <img
+            class="tiktokB"
+            src="../assets/img/smTicktock.png"
+            alt="tiktok"
+          />
+          <img
+            class="facebookB"
+            src="../assets/img/smFacebook.png"
+            alt="facebook"
+          />
+        </div>
+        <div
+          class="poppins-regular"
+          style="
+            margin-bottom: 0%;
+            margin: 0;
+            width: 45%;
+            margin-left: 4%;
+            width: 100%;
+            margin-top: 5%;
+          "
+        >
+          <p
+            style="
+              font-size: large;
+              color: #55daeb;
+              margin-bottom: 0%;
+              margin-left: 1%;
+            "
+          >
+            OR VISIT US THROUGH OUR
+          </p>
+          <p
+            style="
+              font-size: 40px;
+              margin-top: 0%;
+              margin-bottom: 0%;
+              color: #350c4d;
+            "
+          >
+            PHYSICAL LOCATION
+          </p>
+          <img class="location" src="../assets/img/open window location.png" />
+          <input type="text" class="your-name" placeholder="Abc" />
+          <input type="text" class="emailadress" placeholder="Abc@def.com" />
+          <input
+            type="text"
+            class="subject"
+            placeholder="This is an optional."
+          />
+          <input
+            type="text"
+            class="message"
+            placeholder="Hi! i'd like to ask about"
+          />
+          <button
+            class="knoppies"
+            type="button"
+            class="btn-close poppins-extrabold"
+            aria-label="Close"
+            style="background-color: #e51728"
+          >
+            Subject
+          </button>
+          <p
+            class="poppins-bold"
+            style="
+              position: absolute;
+              margin-top: -57%;
+              font-size: 40px;
+              margin-left: 50%;
+              color: #fff;
+            "
+          >
+            SEND US A MESSAGE
+          </p>
+          <p
+            class="poppins-bold"
+            style="
+              position: absolute;
+              margin-top: -51%;
+              font-size: 20px;
+              margin-left: 50%;
+              color: #fff;
+            "
+          >
+            Your Name
+          </p>
+          <p
+            class="poppins-bold"
+            style="
+              position: absolute;
+              margin-top: -41%;
+              font-size: 20px;
+              margin-left: 50%;
+              color: #fff;
+            "
+          >
+            Email Address
+          </p>
+
+          <p
+            class="poppins-bold"
+            style="
+              position: absolute;
+              margin-top: -31%;
+              font-size: 20px;
+              margin-left: 50%;
+              color: #fff;
+            "
+          >
+            Subject
+          </p>
+
+          <p
+            class="poppins-bold"
+            style="
+              position: absolute;
+              margin-top: -21%;
+              font-size: 20px;
+              margin-left: 50%;
+              color: #fff;
+            "
+          >
+            Message
+          </p>
+          <img
+            class="form"
+            src="../assets/img/formBack.png"
+            style="height: 118%"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="slimmed">
+    <p
+      class="poppins-bold"
+      style="
+        color: #000000;
+        margin-left: 60%;
+        margin-top: 1%;
+        position: absolute;
+      "
+    >
+      Social Media Links
+    </p>
+    <p
+      class="poppins-bold"
+      style="
+        color: #000000;
+        margin-left: 43%;
+        margin-top: 1%;
+        position: absolute;
+      "
+    >
+      Company
+    </p>
+    <p
+      class="poppins-regular"
+      style="
+        color: #616161;
+        margin-bottom: 1%;
+        margin-left: 43%;
+        margin-top: 5%;
+        position: absolute;
+      "
+    >
+      Home
+    </p>
+    <p
+      class="poppins-regular"
+      style="
+        color: #616161;
+        margin-bottom: 1%;
+        margin-left: 43%;
+        margin-top: 7%;
+        position: absolute;
+      "
+    >
+      flights
+    </p>
+    <p
+      class="poppins-regular"
+      style="
+        color: #616161;
+        margin-left: 43%;
+        margin-top: 9%;
+        position: absolute;
+      "
+    >
+      Contact Us
+    </p>
+
+    <div class="socialApps">
+      <img
+        class="instagram"
+        src="../assets/img/smInstagram.png"
+        alt="instagram"
+      />
+      <img class="x" src="../assets/img/smX.png" alt="x" />
+      <img class="tiktok" src="../assets/img/smTicktock.png" alt="tiktok" />
+      <img class="facebook" src="../assets/img/smFacebook.png" alt="facebook" />
+    </div>
+
+    <div class="logoGroup">
+      <img id="logoTwo" src="../assets/img/logo.png" alt="Logo" />
+      <p class="poppins-regular">
+        Offering unforgettable trips to explore planets in our solar system
+      </p>
+    </div>
+    <div>
+      <hr />
+    </div>
+
+    <p
+      class="poppins-regular"
+      style="
+        color: #929292;
+        margin-left: 9%;
+        font-size: 13px;
+        position: absolute;
+      "
+    >
+      All Rights Reserved @ Open Window 2024
+    </p>
+    <p
+      class="poppins-regular"
+      style="
+        color: #929292;
+        margin-left: 70%;
+        font-size: 13px;
+        position: absolute;
+      "
+    >
+      Terms & Conditions
+    </p>
+    <p
+      class="poppins-regular"
+      style="
+        color: #929292;
+        margin-left: 80%;
+        font-size: 13px;
+        position: absolute;
+      "
+    >
+      Privacy & Policy
+    </p>
+  </div>
+</html>

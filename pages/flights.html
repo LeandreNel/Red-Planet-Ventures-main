@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="../css/main.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Flights</title>
+    
+    <style>
+      header {
+        background-image: url(../assets/img/headerbackBack.png);
+        background-size: cover;
+        background-position: center center;
+        width: 100%;
+        height: 50vh;
+      }
+    
+      .informationBar {
+        background-color: #45016d;
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+      }
+
+      .flightsText {
+        font-size: 48px;
+        width: 50%;
+        font-family: "porterSans", sans-serif;
+        color: #ffffff;
+        margin: 0 auto;
+        position: relative;
+        top: -15vh;
+      }
+
+.navFlex {
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #4e4e4e;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 25px;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  height: 20%;
+        }
+
+.whiteFirst {
+        background-color: #ffffff;
+        width: 100%;
+        height: 90vh;
+      }
+
+      .whiteSecond {
+        background-color: #ffffff;
+        width: 100%;
+        height: 90vh;
+      }
+
+      .whiteThird {
+        background-color: #ffffff;
+        width: 100%;
+        height: 90vh;
+      }
+
+      .purpleFirst {
+        background-color: #45016d;
+        width: 100%;
+        height: 90vh;
+      }
+
+      .purpleSecond {
+        background-color: #45016d;
+        width: 100%;
+        height: 90vh;
+      }
+
+      .purpleThird {
+        background-color: #45016d;
+        width: 100%;
+        height: 90vh;
+      }
+
+        .footer {
+          background-color: #ffffff;
+          height: 50vh;
+}
+
+        .mars {
+          margin-top: 4.5%;
+          margin-left: 13%;
+        }
+
+        .marsFlight{
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+        }
+
+ .marsInfo{
+          width: 100%;
+        }
+
+        .jupiter {
+          margin-top: 4.5%;
+          margin-left: 13%;
+        }
+
+        .jupiterFlight{
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+        }
+
+        .jupierInfo{
+          width: 100%;
+        }
+
+       
+
+.neptune {
+          margin-top: 4.5%;
+          margin-left: 13%;
+        }
+        
+        .neptuneInfo{
+          width: 100%;
+        }
+
+.neptuneFlight{
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+        }
+
+.saturn {
+          margin-top: 4.5%;
+          margin-left: 13%;
+        }
+        
+.saturnInfo{
+          width: 100%;
+        }
+
+.saturnFlight{
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+        }
+
+        .uranus {
+          margin-top: 4.5%;
+          margin-left: 13%;
+        }
+        
+        .uranusFlight{
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+        }
+
+        .uranusInfo{
+          width: 100%;
+        }
+
+        .moon {
+          margin-top: 4.5%;
+          margin-left: 13%;
+        }
+        
+        .moonInfo{
+          width: 100%;
+        }
+
+.moonFlight{
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+        }
+        
+
+    </style>
+  </head>
+  <body></body>
+
+<header>
+  <nav class="navFlex">
+    <img id="logo" src="../assets/img/logo.png" alt="Logo" />
+    <div class="navPages">
+      <p><a href="../index.html">Home</a></p>
+      <p><a style="color: #e51728" href="pages/flights.html">Flights</a></p>
+      <p><a href="../pages/contact.html">Contact</a></p>
+      <p><a href="../pages/about.html">About</a></p>
+      <div class="search-container">
+        <input type="text" class="search-bar" placeholder="Search...">
+    </div>
+    </div>
+  </nav>
+  <div class="flightsText">
+    BOOK A FLIGHT
+  </div>
+</header>
+
+  <div class="informationBar">
+    <P class="poppins-regular" style="color: rgb(255, 255, 255); font-size: 20px; margin-left: 10%; margin-top: 2%;">Filter</P>
+    <P class="poppins-regular" style="color: rgb(255, 255, 255); font-size: 20px; margin-left: 30%; margin-top: 2%; position: absolute;"> Showing 1–16 of 32 results</P>
+    <P class="poppins-regular" style="color: rgb(255, 255, 255); font-size: 20px; margin-left: 70%; margin-top: 2%; position: absolute;"> Show</P>
+    <P class="poppins-regular" style="color: rgb(255, 255, 255); font-size: 20px; margin-left: 80%; margin-top: 2%; position: absolute;"> Sort by</P>
+  </div>
+
+<div class="whiteFirst">
+  <div class=marsFlight>
+    <img class="mars" src="../assets/img/flighhtMars.png" alt="mars"/>
+    <div class="marsInfo">
+    <p class="poppins-semibold" style="color: rgb(0, 0, 0); font-size: 40px; margin-top: 6%; padding-left: 5%; margin-bottom: 0%; ">
+      The Classic Mars Experience
+    </p>
+    <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 25px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+      R25,000.00 <s style="padding-left: 10%;">R50,000.00</s>
+    </p>
+    <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 14%; padding-left: 5%; margin-left:24%; margin-top: 0%;">
+      36 Customer Reviews
+    </p>
+    <p class="poppins-regular" style="color: rgb(0, 0, 0); font-size: 18px; margin-top: 6%; padding-left: 5%; margin-bottom: 0%; width: 
+      70%;">
+      Embark on a Mars vacation: red deserts, ancient relics, and towering 
+      canyons await. Enjoy low-gravity hiking, rover trips to Olympus Mons, and 
+      stargazing under Phobos and Deimos. Unforgettable adventures beckon 
+      on the rust-colored landscapes of the Red Planet.
+    </p>
+<div style="display:flex; flex-direction: row; width: 100%; height: 10%;margin-top: 5%;">
+      <div style="margin-left: 5%;height: 100%;"><button class="knoppieA" type="button" class="btn-close poppins-extrabold" aria-label="Close" style="width: 200%;height: 90%;background-color: #45016d;">-  1  +</button>
+    </div>
+      <div style="margin-left: 10%;height: 100%;"><button class="knoppieA" type="button" class="btn-close poppins-extrabold" aria-label="Close" style="width: 200%; height: 90%;background-color: #e51728;">BOOK NOW</button>
+    </div>
+  </div>
+  <hr/>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    SKU :  SS606
+  </p>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    Shuttle :  The Oddesy
+  </p>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    Tags :  Jupiter, Luxury, Adventure
+  </p>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    Date :  15 June - 30 July
+  </p>
+</div>
+</div>
+</div>
+
+<div class="purpleFirst">
+  <div class=neptuneFlight>
+    <img class="neptune" src="../assets/img/flightneptune.png" alt="neptune"/>
+    <div class="neptuneInfo">
+    <p class="poppins-semibold" style="color: rgb(255, 255, 255); font-size: 40px; margin-top: 6%; padding-left: 5%; margin-bottom: 0%; ">
+      Neptune’s Cosmic Dive
+    </p>
+    <p class="poppins-regular" style="color: #55daeb; font-size: 25px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+      R45,000.00
+    </p>
+    <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 14%; padding-left: 5%; margin-left:24%; margin-top: 0%;">
+      24 Customer Reviews
+    </p>
+    <p class="poppins-regular" style="color: rgb(255, 255, 255); font-size: 18px; margin-top: 6%; padding-left: 5%; margin-bottom: 0%; width: 
+      70%;">
+      Embark on a voyage to Neptune aboard the "Neptune Voyager." Witness 
+      surreal vistas of swirling clouds and rings. Experience weightlessness and 
+      explore frigid oceans. Engage in thrilling spacewalks, observe celestial 
+      phenomena, and savor gourmet space cuisine. An unforgettable 
+      adventure awaits, blending luxury with cosmic exploration.
+    </p>
+<div style="display:flex; flex-direction: row; width: 100%; height: 10%;margin-top: 5%;">
+      <div style="margin-left: 5%;height: 100%;"><button class="knoppieA" type="button" class="btn-close poppins-extrabold" aria-label="Close" style="width: 200%;height: 90%;background-color: #5ee2ff;">-  1  +</button>
+    </div>
+      <div style="margin-left: 10%;height: 100%;"><button class="knoppieA" type="button" class="btn-close poppins-extrabold" aria-label="Close" style="width: 200%; height: 90%;background-color: #e51728;">BOOK NOW</button>
+    </div>
+  </div>
+  <hr/>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    SKU :  SS405
+  </p>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    Shuttle :  The Voyager
+  </p>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    Tags :  Neptune, Commercial, Gourmet Experience
+  </p>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    Date :  4 April - 28 March
+  </p>
+</div>
+</div>
+</div>
+
+<div class="whiteSecond">
+  <div class=jupiterFlight>
+    <img class="jupiter" src="../assets/img/flightJupiter.png" alt="jupiter"/>
+    <div class="jupiterInfo">
+    <p class="poppins-semibold" style="color: rgb(0, 0, 0); font-size: 40px; margin-top: 6%; padding-left: 5%; margin-bottom: 0%; ">
+      The Giant’s Journey
+    </p>
+    <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 25px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+      R65,000.00
+    </p>
+    <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 14%; padding-left: 5%; margin-left:24%; margin-top: 0%;">
+      48 Customer Reviews
+    </p>
+    <p class="poppins-regular" style="color: rgb(0, 0, 0); font-size: 18px; margin-top: 6%; padding-left: 5%; margin-bottom: 0%; width: 
+      70%;">
+       Embark on a Jupiter voyage aboard the "Jupiter Odyssey." Witness its 
+       majestic storms and swirling atmosphere. Dive into metallic hydrogen 
+       oceans. Explore its moons, each a world unto itself. Engage in gravity 
+       surfing, comet chasing, and space excursions. Experience cosmic wonder 
+       in luxury, blending exploration with adventure.
+    </p>
+<div style="display:flex; flex-direction: row; width: 100%; height: 10%;margin-top: 5%;">
+      <div style="margin-left: 5%;height: 100%;"><button class="knoppieA" type="button" class="btn-close poppins-extrabold" aria-label="Close" style="width: 200%;height: 90%;background-color: #45016d;">-  1  +</button>
+    </div>
+      <div style="margin-left: 10%;height: 100%;"><button class="knoppieA" type="button" class="btn-close poppins-extrabold" aria-label="Close" style="width: 200%; height: 90%;background-color: #e51728;">BOOK NOW</button>
+    </div>
+  </div>
+  <hr/>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    SKU :  SS606
+  </p>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    Shuttle :  The Oddesy
+  </p>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    Tags :  Jupiter, Luxury, Adventure
+  </p>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    Date :  15 June - 30 July
+  </p>
+</div>
+</div>
+</div>
+
+<div class="purpleSecond">
+  <div class=saturnFlight>
+    <img class="saturn" src="../assets/img/flightSaturn.png" alt="saturn"/>
+    <div class="saturnInfo">
+    <p class="poppins-semibold" style="color: rgb(255, 255, 255); font-size: 40px; margin-top: 6%; padding-left: 5%; margin-bottom: 0%; ">
+      Ring Around a Saturn
+    </p>
+    <p class="poppins-regular" style="color: #55daeb; font-size: 25px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+      R40,000.00
+    </p>
+    <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 14%; padding-left: 5%; margin-left:24%; margin-top: 0%;">
+      16 Customer Reviews
+    </p>
+    <p class="poppins-regular" style="color: rgb(255, 255, 255); font-size: 18px; margin-top: 6%; padding-left: 5%; margin-bottom: 0%; width: 
+      70%;">
+       Embark on a thrilling voyage to Saturn aboard the "Saturn Explorer." 
+       Marvel at its iconic rings and turbulent storms. Explore its diverse moons, 
+       from icy Enceladus to mysterious Titan, with activities including rover 
+       expeditions and cave exploration. Experience the wonders of the cosmos 
+       amidst luxurious accommodations, where the thrill of discovery 
+       intertwines seamlessly with the excitement of adventure.
+    </p>
+<div style="display:flex; flex-direction: row; width: 100%; height: 10%;margin-top: 5%;">
+      <div style="margin-left: 5%;height: 100%;"><button class="knoppieA" type="button" class="btn-close poppins-extrabold" aria-label="Close" style="width: 200%;height: 90%;background-color: #5ee2ff;">-  1  +</button>
+    </div>
+      <div style="margin-left: 10%;height: 100%;"><button class="knoppieA" type="button" class="btn-close poppins-extrabold" aria-label="Close" style="width: 200%; height: 90%;background-color: #e51728;">BOOK NOW</button>
+    </div>
+  </div>
+  <hr/>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    SKU :  SS333
+  </p>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    Shuttle :  The Explorer
+  </p>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    Tags :  Saturn, Luxury, Adventure
+  </p>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    Date :  4 April - 28 March
+  </p>
+</div>
+</div>
+</div>
+
+<div class="whiteThird">
+  <div class=uranusFlight>
+    <img class="uranus" src="../assets/img/flightUranus.png" alt="uranus"/>
+    <div class="uranusInfo">
+    <p class="poppins-semibold" style="color: rgb(0, 0, 0); font-size: 40px; margin-top: 6%; padding-left: 5%; margin-bottom: 0%; ">
+      Uranus Uncharted
+    </p>
+    <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 25px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+      R50,000.00
+    </p>
+    <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 14%; padding-left: 5%; margin-left:24%; margin-top: 0%;">
+      12 Customer Reviews
+    </p>
+    <p class="poppins-regular" style="color: rgb(0, 0, 0); font-size: 18px; margin-top: 6%; padding-left: 5%; margin-bottom: 0%; width: 
+      70%;">
+       Embark on a cosmic adventure to Uranus with our "Uranus Unveiled" tour. 
+       Explore its icy atmosphere and captivating moons. Experience thrilling 
+       zero-gravity excursions, witness mesmerizing auroras, and immerse 
+       yourself in celestial photography workshops. With luxury 
+       accommodations and expert guides, discover the wonders of Uranus in a 
+       journey of a lifetime.
+    </p>
+<div style="display:flex; flex-direction: row; width: 100%; height: 10%;margin-top: 5%;">
+      <div style="margin-left: 5%;height: 100%;"><button class="knoppieA" type="button" class="btn-close poppins-extrabold" aria-label="Close" style="width: 200%;height: 90%;background-color: #45016d;">-  1  +</button>
+    </div>
+      <div style="margin-left: 10%;height: 100%;"><button class="knoppieA" type="button" class="btn-close poppins-extrabold" aria-label="Close" style="width: 200%; height: 90%;background-color: #e51728;">BOOK NOW</button>
+    </div>
+  </div>
+  <hr/>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    SKU :  SS735
+  </p>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    Shuttle :  The Endeavor
+  </p>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    Tags :  Uranus, Workshop, Adventure
+  </p>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    Date :  16 May - 19 July
+  </p>
+</div>
+</div>
+</div>
+
+<div class="purpleThird">
+  <div class=moonFlight>
+    <img class="moon" src="../assets/img/flightMoon.png" alt="moon"/>
+    <div class="moonInfo">
+    <p class="poppins-semibold" style="color: rgb(255, 255, 255); font-size: 40px; margin-top: 6%; padding-left: 5%; margin-bottom: 0%; ">
+      Moonlight Meander
+    </p>
+    <p class="poppins-regular" style="color: #55daeb; font-size: 25px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+      R15,000.00
+    </p>
+    <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 14%; padding-left: 5%; margin-left:24%; margin-top: 0%;">
+      43 Customer Reviews
+    </p>
+    <p class="poppins-regular" style="color: rgb(255, 255, 255); font-size: 18px; margin-top: 6%; padding-left: 5%; margin-bottom: 0%; width: 
+      70%;">
+        Experience the ultimate lunar getaway with our "Moonlight Meander" 
+        package. Depart Earth's atmosphere aboard the "Celestial Cruiser" for a 
+        short but unforgettable journey to the Moon. Enjoy lunar walks, 
+        breathtaking views of Earthrise, and stargazing under the moon's serene 
+        glow. Immerse yourself in luxury accommodations amidst the tranquility 
+        of space.
+    </p>
+<div style="display:flex; flex-direction: row; width: 100%; height: 10%;margin-top: 5%;">
+      <div style="margin-left: 5%;height: 100%;"><button class="knoppieA" type="button" class="btn-close poppins-extrabold" aria-label="Close" style="width: 200%;height: 90%;background-color: #5ee2ff;">-  1  +</button>
+    </div>
+      <div style="margin-left: 10%;height: 100%;"><button class="knoppieA" type="button" class="btn-close poppins-extrabold" aria-label="Close" style="width: 200%; height: 90%;background-color: #e51728;">BOOK NOW</button>
+    </div>
+  </div>
+  <hr/>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    SKU :  SS451
+  </p>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    Shuttle :  The Voyager
+  </p>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    Tags :  Moon, commercial, Romantic
+  </p>
+  <p class="poppins-regular" style="color: rgb(167, 167, 167); font-size: 15px; margin-top: 10%; padding-left: 5%; margin-top: 0%; font-weight: 500;">
+    Date :  5 August - 12 August
+  </p>
+</div>
+</div>
+</div>
+
+
+<div class="slimmed">
+  <p class="poppins-bold" style="color: #000000; margin-left: 60%; margin-top: 1%; position: absolute;">Social Media Links</p>
+  <p class="poppins-bold" style="color: #000000; margin-left: 43%; margin-top: 1%; position: absolute;">Company</p>
+  <p class="poppins-regular" style="color: #616161;margin-bottom: 1%; margin-left: 43%; margin-top: 5%; position: absolute;">Home</p>
+  <p class="poppins-regular" style="color: #616161;margin-bottom: 1%; margin-left: 43%; margin-top: 7%; position: absolute;">flights</p>
+  <p class="poppins-regular" style="color: #616161; margin-left: 43%; margin-top: 9%; position: absolute;">Contact Us</p>
+
+<div class="socialApps">
+  <img class="instagram" src="../assets/img/smInstagram.png" alt="instagram"/>
+  <img class="x" src="../assets/img/smX.png" alt="x"/>
+  <img class="tiktok" src="../assets/img/smTicktock.png" alt="tiktok"/>
+  <img class="facebook" src="../assets/img/smFacebook.png" alt="facebook"/>
+  </div>
+
+  <div class="logoGroup"><img id="logoTwo" src="../assets/img/logo.png" alt="Logo" />
+    <p class="poppins-regular">Offering unforgettable trips to 
+    explore planets in our solar 
+    system</p></div>
+  <div>
+    <hr/>
+  </div>
+
+  <p class="poppins-regular" style="color:#929292; margin-left: 9%; font-size: 13px; position: absolute;">All Rights Reserved @ Open Window 2024</p>
+  <p class="poppins-regular" style="color:#929292; margin-left: 70%; font-size: 13px; position: absolute;">Terms & Conditions</p>
+  <p class="poppins-regular" style="color:#929292; margin-left: 80%; font-size: 13px; position: absolute;">Privacy & Policy</p>
+</div>
+</html>
+
+</html>
+
+
