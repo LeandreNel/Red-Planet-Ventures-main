@@ -181,15 +181,230 @@
         background-color: #e51728;
         font-family: "poppins-bold", sans-serif;
         position: absolute;
-        height: 8%;
+        height: 5%;
         margin-left: 10%;
-        margin-top: 36%;
+        margin-top: 37.5%;
         width: 12%;
         border-radius: 10px;
         border: none;
         color: white;
         font-size: 18px;
         font-family: "poppins-bold", sans-serif;
+      }
+
+      /* Extra small devices (phones, portrait, less than 576px) */
+      @media (max-width: 575.98px) {
+        /* Styles for extra small devices */
+
+        .whiteSpace {
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+        .aboutArea p {
+          font-size: 12px;
+        }
+
+        .locationContact div {
+          margin-bottom: 20%;
+        }
+        .locationContact div div {
+          text-align: center;
+          width: 97% !important;
+          font-size: 16px !important;
+          margin: auto !important;
+        }
+
+        .locationContact div div p {
+          font-size: 22px !important;
+        }
+        .locationContact div p {
+          font-size: 10px !important;
+          transform: translateY(-45%);
+        }
+
+        .instaGramB {
+          margin-left: 34%;
+          width: 7%;
+        }
+
+        .xB {
+          width: 7%;
+        }
+
+        .tiktokB {
+          width: 7%;
+        }
+
+        .facebookB {
+          width: 7%;
+        }
+
+        input {
+          height: 10px !important;
+        }
+
+        .knoppies {
+          height: 15px !important;
+          width: 20% !important;
+          font-size: 10px !important;
+        }
+
+        .navFlex {
+          width: 95vw;
+          height: 6vh;
+        }
+
+        #logo {
+          height: 20%;
+          margin-right: 0;
+        }
+
+        .navPages p a {
+          font-size: 12px;
+          margin-left: 0%;
+          padding: 5px;
+        }
+
+        .navPages {
+          margin: 0;
+        }
+
+        .search-container {
+          margin: auto;
+          margin-left: 10px;
+          width: 22%;
+          font-size: 8px;
+          height: 2vh;
+        }
+
+        .search-bar {
+          font-size: 12px;
+          width: 65%;
+          height: 5% !important;
+        }
+      }
+
+      .locationContact div {
+        margin-left: 3% !important;
+        width: 97% !important;
+      }
+      /* Small devices (landscape phones, 576px and up) */
+      @media (min-width: 576px) and (max-width: 767.98px) {
+        /* Styles for small devices */
+        .whiteSpace {
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+        }
+        .aboutArea p {
+          font-size: 12px;
+        }
+
+        .locationContact div {
+          margin-bottom: 20%;
+        }
+        .locationContact div div {
+          text-align: center;
+          width: 100% !important;
+          font-size: 16px !important;
+          margin: auto !important;
+        }
+
+        .locationContact div div p {
+          font-size: 22px !important;
+        }
+        .locationContact div p {
+          font-size: 10px !important;
+          transform: translateY(-60%);
+        }
+
+        .instaGramB {
+          margin-left: 34%;
+          width: 7%;
+        }
+
+        .xB {
+          width: 7%;
+        }
+
+        .tiktokB {
+          width: 7%;
+        }
+
+        .facebookB {
+          width: 7%;
+        }
+
+        input {
+          height: 10px !important;
+        }
+
+        .knoppies {
+          height: 15px !important;
+          width: 20% !important;
+          font-size: 10px !important;
+        }
+
+        .navFlex {
+          width: 95vw;
+          height: 6vh;
+        }
+
+        #logo {
+          height: 20%;
+          margin-right: 0;
+        }
+
+        .navPages p a {
+          font-size: 12px;
+          margin-left: 0%;
+          padding: 5px;
+        }
+
+        .navPages {
+          margin: 0;
+        }
+
+        .search-container {
+          margin: auto;
+          margin-left: 10px;
+          width: 22%;
+          font-size: 8px;
+          height: 2vh;
+        }
+
+        .search-bar {
+          font-size: 12px;
+          width: 65%;
+          height: 5% !important;
+        }
+      }
+
+      /* Medium devices (tablets, 768px and up) */
+      @media (min-width: 768px) and (max-width: 991.98px) {
+        /* Styles for medium devices */
+        input {
+          height: 40px !important;
+        }
+
+        .locationContact div p {
+          font-size: 14px !important;
+          transform: translateY(-10%);
+        }
+
+        .knoppies {
+          height: 40px !important;
+          width: 20% !important;
+          font-size: 10px !important;
+          margin-top: 35% !important;
+        }
+
+        .search-bar {
+          font-size: 12px;
+          width: 65%;
+          height: 5% !important;
+        }
       }
     </style>
   </head>
@@ -355,7 +570,7 @@
             aria-label="Close"
             style="background-color: #e51728"
           >
-            Subject
+            Submit
           </button>
           <p
             class="poppins-bold"
@@ -430,81 +645,38 @@
   </div>
 
   <div class="slimmed">
-    <p
-      class="poppins-bold"
-      style="
-        color: #000000;
-        margin-left: 60%;
-        margin-top: 1%;
-        position: absolute;
-      "
-    >
-      Social Media Links
-    </p>
-    <p
-      class="poppins-bold"
-      style="
-        color: #000000;
-        margin-left: 43%;
-        margin-top: 1%;
-        position: absolute;
-      "
-    >
-      Company
-    </p>
-    <p
-      class="poppins-regular"
-      style="
-        color: #616161;
-        margin-bottom: 1%;
-        margin-left: 43%;
-        margin-top: 5%;
-        position: absolute;
-      "
-    >
-      Home
-    </p>
-    <p
-      class="poppins-regular"
-      style="
-        color: #616161;
-        margin-bottom: 1%;
-        margin-left: 43%;
-        margin-top: 7%;
-        position: absolute;
-      "
-    >
-      flights
-    </p>
-    <p
-      class="poppins-regular"
-      style="
-        color: #616161;
-        margin-left: 43%;
-        margin-top: 9%;
-        position: absolute;
-      "
-    >
-      Contact Us
-    </p>
-
-    <div class="socialApps">
-      <img
-        class="instagram"
-        src="../assets/img/smInstagram.png"
-        alt="instagram"
-      />
-      <img class="x" src="../assets/img/smX.png" alt="x" />
-      <img class="tiktok" src="../assets/img/smTicktock.png" alt="tiktok" />
-      <img class="facebook" src="../assets/img/smFacebook.png" alt="facebook" />
+    <div class="contactGroup">
+      <div class="logoGroup">
+        <img id="logoTwo" src="../assets/img/logo.png" alt="Logo" />
+        <p class="poppins-regular">
+          Offering unforgettable trips to explore planets in our solar system
+        </p>
+      </div>
+      <div class="companyGroup">
+        <p class="poppins-bold" style="color: #000000">Company</p>
+        <p class="poppins-regular" style="color: #616161">Home</p>
+        <p class="poppins-regular" style="color: #616161">flights</p>
+        <p class="poppins-regular" style="color: #616161">Contact Us</p>
+      </div>
+      <div class="socialGroup">
+        <p class="poppins-bold socialTitle">Social Media Links</p>
+        <div class="socialApps">
+          <img
+            class="instagram"
+            src="../assets/img/smInstagram.png"
+            alt="instagram"
+          />
+          <img class="x" src="../assets/img/smX.png" alt="x" />
+          <img class="tiktok" src="../assets/img/smTicktock.png" alt="tiktok" />
+          <img
+            class="facebook"
+            src="../assets/img/smFacebook.png"
+            alt="facebook"
+          />
+        </div>
+      </div>
     </div>
 
-    <div class="logoGroup">
-      <img id="logoTwo" src="../assets/img/logo.png" alt="Logo" />
-      <p class="poppins-regular">
-        Offering unforgettable trips to explore planets in our solar system
-      </p>
-    </div>
     <div>
       <hr />
     </div>

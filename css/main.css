@@ -147,7 +147,7 @@ body {
 
 .featured {
   background-color: #45016d;
-  height: 95vh;
+  height: 105vh;
   position: relative;
   margin: auto;
   display: flex;
@@ -426,8 +426,8 @@ hr {
   color: #000000;
   width: fit-content;
 }
-.travelInStyle {
-}
+/* .travelInStyle {
+} */
 
 .upcomingTrips {
   color: #55daeb;
@@ -575,7 +575,7 @@ hr {
   }
 
   .featured {
-    height: 30vh;
+    height: 40vh;
   }
 
   .mainText {
@@ -782,7 +782,7 @@ hr {
   }
 
   .featured {
-    height: 35vh;
+    height: 45vh;
   }
 
   .mainText {
@@ -994,7 +994,7 @@ hr {
   }
 
   .featured {
-    height: 45vh;
+    height: 60vh;
   }
 
   .mainText {
@@ -1522,11 +1522,11 @@ hr {
 
   .knoppieB {
     font-size: 12px;
-    margin-top: 540px;
+    margin-top: 500px;
   }
 
   .playingCards {
-    margin-top: 14%;
+    margin-top: 10%;
   }
 
   .slimmed {
